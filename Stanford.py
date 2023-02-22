@@ -47,7 +47,7 @@ def commands():
             speak(f"{fgreet}, what can i do for you?")
             time.sleep(2)
             while True:
-                print("Say commnad..")
+                print("Say command..")
 
                 r.adjust_for_ambient_noise(source)
                 audion = r.listen(source)
