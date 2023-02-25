@@ -27,9 +27,8 @@ def clear():
 ░  ░  ░    ░        ░   ▒      ░   ░ ░  ░ ░   ░ ░ ░ ▒    ░░   ░  ░ ░  ░ 
       ░                 ░  ░         ░            ░ ░     ░        ░    
                                                                  ░      
-            By TASTEFULBLATANT#3056
-            Say "help" for help and commands
-            -Say turtle for python projects
+            By TASTEFULBLATANT#3056 & Oliverrr#8393
+            Say "help" for commands
             """)
     
 
@@ -81,21 +80,18 @@ Volume: Say volume up, volume down or volume mute, StanFord will do it for you.
                     pywhatkit.playonyt(my_text)
                     clear()
 
-                elif "time" in my_text:
+                elif "time" in my_text: 
                     os.system('cls')
                     TimeNow = datetime.datetime.now().strftime('%H:%M')
                     clear()
                     print(TimeNow)
                     speak(TimeNow)
                     clear()
-                
-                elif "turtle" in my_text:
-                    print("In progress")
 
-                elif "about" in my_text:
+                elif "about ssps" in my_text:
                     clear()
-                    print("I was created by tastefulblatant. Tastefulblatant is 13 years old guy who love programming and hacking. His dream is to go on high school called SSPS in Prague and become Ethical hacker.") 
-                    speak("I was created by tastefulblatant. Tastefulblatant is 13 years old guy who loves programming in Python and hacking. His dream is to go on high school called SSPS in Prague and become Ethical hacker.")
+                    print("SSPŠ is high school located in Smíchov, Prague. It was founded in 1901 and now has over 600 students in 20 classes. Currently, classes in the fields of Information Technology, Cybersecurity and Gymnasium are taking place here.") 
+                    speak("SSPŠ is high school located in Smíchov, Prague. It was founded in 1901 and now has over 600 students in 20 classes. Currently, classes in the fields of Information Technology, Cybersecurity and Gymnasium are taking place here.")
                     clear()
 
 
@@ -117,6 +113,7 @@ Volume: Say volume up, volume down or volume mute, StanFord will do it for you.
                 
                 elif "volume down" in my_text:
                     pyautogui.press("volumedown")
+                    
                 elif "mute volume" in my_text:
                     pyautogui.press("volumemute")
                 
